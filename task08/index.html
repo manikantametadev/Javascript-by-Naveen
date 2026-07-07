@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store API Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🛒 Fake Store API Tasks</h1>
+
+    <!-- Product Count -->
+    <h2 id="count">Total Products : 0</h2>
+
+    <!-- Search -->
+    <input
+        type="text"
+        id="search"
+        placeholder="🔍 Search Product..."
+    >
+
+    <!-- Buttons -->
+    <div class="buttons">
+
+        <button onclick="showAll()">All Products</button>
+
+        <button onclick="below100()">Below $100</button>
+
+        <button onclick="above100()">Above $100</button>
+
+        <button onclick="electronics()">Electronics</button>
+
+        <button onclick="mensClothing()">Men's Clothing</button>
+
+        <button onclick="womensClothing()">Women's Clothing</button>
+
+        <button onclick="jewelleryProducts()">Jewellery</button>
+
+        <button onclick="firstFiveProducts()">First 5</button>
+
+        <button onclick="lastFiveProducts()">Last 5</button>
+
+        <button onclick="highestRatedProduct()">Highest Rated</button>
+
+        <button onclick="cheapestProduct()">Cheapest</button>
+
+        <button onclick="costliestProduct()">Costliest</button>
+
+    </div>
+
+    <!-- Product Cards -->
+    <div id="products" class="container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
